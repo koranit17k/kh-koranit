@@ -1,9 +1,15 @@
 ## 👤 **Personal Information**
 
 - **Name:**
-- **Location:** Thailand
-- **Role:** Developer / Data
+- **Nickname:**
+- **Age:** 21
+- **Gender:** Male
+- **Height:** 175 cm
+- **Weight:** 65 kg
+- **Hometown:** Phuket, Thailand
 - **Interests:** Web Dev, Backend, Data Engineering, Automation
+- **Personality:** Introvert, Friendly, Curious, Always Learning
+- **Hobbies:** Playing Video Games, Watching Movies, Reading Books
 
 ---
 
@@ -13,6 +19,7 @@
 - **Major:**
 - **Institute:**
 - **Graduation Year:**
+- **GPA:**
 
 ---
 
@@ -74,13 +81,13 @@
 
 ## 📁 **Portfolio & Projects**
 
-### **🌐 PowerBI Dashboard**
+> ### **🌐 PowerBI Dashboard**
 
-Dashboard with PowerBI + API integration.
+> Dashboard with PowerBI + API integration.
 
-### **🔗 Nuxt/Content คู่มือการฝึกงาน**
+> ### **🔗 Nuxt/Content คู่มือการฝึกงาน**
 
-Nuxt.js framework + Markdown content.
+> Nuxt.js framework + Markdown content.
 
 ---
 
@@ -92,6 +99,8 @@ Nuxt.js framework + Markdown content.
   "email": "your-email@example.com",
   "github": "https://github.com/your-profile",
   "linkedin": "https://linkedin.com/in/your-profile",
+  "line": "https://line.me/ti/p/your-profile",
+  "discord": "https://discord.com/users/your-profile",
   "website": "https://your-portfolio.com",
   "phone": "+66-xxx-xxx-xxx"
 }

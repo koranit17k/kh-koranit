@@ -21,7 +21,7 @@ navigation:
   sudo apt install curl git
 ```
 
----
+for client use Elementary OS 8
 
 ## Node.js
 
@@ -37,3 +37,14 @@ Node24 ติดตั้งบน Linux (Ubuntu / Debian) [https://nodejs.org/e
   # ติดตั้ง pnpm
   corepack enable pnpm
 ```
+
+---
+
+## Antigravity (Linux)
+
+```bash
+  # ติดตั้ง Antigravity
+
+```
+
+---

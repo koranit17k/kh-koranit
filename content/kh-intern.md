@@ -10,7 +10,8 @@ navigation:
 
 ### 1.การสร้างติดตั้งซอฟต์แวร์
 
-    Fork project from [https://github.com/swasin186/kh-intern.git]
+Fork project from
+[https://github.com/swasin185/kh-intern]
 
 ```bash
     # Clone โปรเจ็คที่ถูก fork
