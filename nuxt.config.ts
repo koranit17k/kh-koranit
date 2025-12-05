@@ -12,6 +12,7 @@ export default defineNuxtConfig({
     preset: 'vercel',
     prerender: {
       crawlLinks: true,
+      routes: ['/'],
       failOnError: false,
     }
   }
