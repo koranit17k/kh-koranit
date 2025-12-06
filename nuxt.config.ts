@@ -2,7 +2,9 @@
 export default defineNuxtConfig({
   modules: [
     '@nuxt/content',
+    '@nuxt/ui',
   ],
+  css: ["@/assets/main.css"],
   devtools: { enabled: false },
   future: {
     compatibilityVersion: 4,
@@ -14,6 +16,11 @@ export default defineNuxtConfig({
       crawlLinks: true,
       routes: ['/'],
       failOnError: false,
+    }
+  },
+  vite: {
+    optimizeDeps: {
+      include: ['@nuxtjs/mdc']
     }
   }
 })
