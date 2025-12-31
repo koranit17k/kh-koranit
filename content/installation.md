@@ -6,17 +6,23 @@ navigation:
 
 # Software & Installation Guide
 
-คู่มือสำหรับติดตั้งซอฟต์แวร์ที่จำเป็นสำหรับการทำงาน / ฝึกงาน
+> คู่มือสำหรับติดตั้งซอฟต์แวร์ที่จำเป็นสำหรับการทำงาน / ฝึกงาน
 
 ---
 
 ## Linux OS
 
-### OS Installation
+### OS Installation (Debian13)
 
+- Server Environment
+- Minimal footprint, Resource efficient
+- ถ้าต้องการ GUI เลือก XFCE (customizable and light weight)
 - ต้องมีชื่อผู้ใช้ root เสมอ แต่ไม่ตั้งรหัสผ่าน ให้สร้างผู้ใช้ ในชื่อตนเอง รันคำสั่งผ่าน sudo
 - ไดเร็คทอรี่ /home/username เป็นที่เก็บข้อมูลส่วนตัวของผู้ใช้
 - /etc เป็นที่เก็บข้อมูลติดตั้งระบบ
+- สร้างดิสต์ partition เอง (GPT)
+  - 500MB fat32 boot /boot/efi
+  - 500GB ext4 /
 
 ```bash
   # ดูรายละเอียดของระบบ
@@ -34,25 +40,16 @@ navigation:
   sudo apt install curl git
 ```
 
-### Linux for developer's PC
+### ParrotOS 7.0 (Developer's PC)
 
-- ParrotOS 7.0 (Developer's PC)
-  - Supper minimal footprint, Resource efficient
-  - Debian based Linux distribution
-  - Clean & clear UI Look&Feel like macOS
-  - สร้างดิสต์ partition เอง (GPT)
-    - 500MB fat32 boot /boot/efi
-    - 500GB ext4 /
+- Supper minimal footprint, Resource efficient
+- Debian based Linux distribution
+- Clean & clear UI Look&Feel like macOS
 
 ```bash
   # สำหรับ ParrotOS ควรติดตั้ง font เพิ่มเติม
   sudo apt install xfonts-thai
 ```
-
-- Debian 13 (Server)
-  - Server Environment
-  - Minimal footprint, Resource efficient
-  - UI: XFCE (customizable and light weight)
 
 ---
 
