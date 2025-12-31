@@ -47,10 +47,10 @@ Primary goals:
 - Static files belong in `/public`
 - Content files belong in `/content`
   - `about.md` is personal data of intern / trainee for resume
-  - `glossary.md` is glossary of terms used in training process
-  - `index.md` content is custom for each intern/training condition
+  - `glossary.md` is glossary of new technical term be learned from training process
+  - `index.md` content is custom for each intern/training signed condition
   - `installation.md` is general software installation instructions for intern's environment
-  - `kh-intern.md` is this project's self documentation
+  - `kh-intern.md` is this project's howto documentation
   - `recruitement.md` is trainee / intern requirements for recruitement process
 
 ---

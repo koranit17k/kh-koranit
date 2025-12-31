@@ -36,12 +36,15 @@ navigation:
 
 ### Linux for developer's PC
 
-- Elementary OS 8
+- ParrotOS 7.0 (Developer's PC)
+  - Minimal footprint, Resource efficient
   - Debian based Linux distribution
   - Clean & clear UI Look&Feel like macOS
-- Debian 13 with XFCE
-  - small footprint
-  - XFCE customizable and light weight UI
+  - Security focused
+- Debian 13 (Server)
+  - Server Environment
+  - Minimal footprint, Resource efficient
+  - UI: XFCE (customizable and light weight)
 
 ---
 
