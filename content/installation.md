@@ -76,7 +76,8 @@ Node24 ติดตั้งบน Linux (Ubuntu / Debian) [https://nodejs.org/e
 Antigravity Download ติดตั้งบน [deb-based Linux distributions (eg. Debian, Ubuntu)](https://antigravity.google/download/linux)
 
 - เข้าใช้ด้วย Google Account
-- ยืนยันการอนุญาติใช้งาน Github repository
+- antigravity --verbose --vmodule="*/components/os_crypt/*=1"
+
 
 ```bash
   # โหลด key และเพิ่ม repo apt package
