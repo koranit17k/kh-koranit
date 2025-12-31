@@ -10,7 +10,7 @@ navigation:
 
 ---
 
-## Linux OS
+## 1. Linux OS
 
 ### OS Installation (Debian13)
 
@@ -54,7 +54,7 @@ navigation:
 
 ---
 
-## Node.js
+## 2. Node.js
 
 Node24 ติดตั้งบน Linux (Ubuntu / Debian) [https://nodejs.org/en/download]
 
@@ -71,7 +71,7 @@ Node24 ติดตั้งบน Linux (Ubuntu / Debian) [https://nodejs.org/e
 
 ---
 
-## Google Antigravity
+## 3. Google Antigravity
 
 Antigravity Download ติดตั้งบน [deb-based Linux distributions (eg. Debian, Ubuntu)](https://antigravity.google/download/linux)
 
@@ -97,7 +97,7 @@ Antigravity Download ติดตั้งบน [deb-based Linux distributions 
 
 ---
 
-## Git Configuration
+## 4. Git Configuration
 
 ตั้งค่า Git ให้จดจำรหัสผ่าน (Personal Access Token) เพื่อไม่ต้องกรอกทุกครั้ง
 
