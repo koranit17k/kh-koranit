@@ -12,21 +12,27 @@ navigation:
 
 ## 1. Linux OS
 
-### OS Installation (Debian13)
+### Debian 13
 
-- Server Environment
-- Minimal footprint, Resource efficient
-- ถ้าต้องการ GUI เลือก XFCE (customizable and light weight)
-- ต้องมีชื่อผู้ใช้ root เสมอ แต่ไม่ตั้งรหัสผ่าน ให้สร้างผู้ใช้ ในชื่อตนเอง รันคำสั่งผ่าน sudo
-- ไดเร็คทอรี่ /home/username เป็นที่เก็บข้อมูลส่วนตัวของผู้ใช้
-- /etc เป็นที่เก็บข้อมูลติดตั้งระบบ
-- install bluetooth (blueman)
-- for user's PC install Elementary OS / Mint
+> สามารถติดตั้งแค่ระบบ OS พื้นฐาน สำหรับใช้เป็นเซิร์ฟเวอร์
+> การอัพเดทซอฟแวร์ผ่าน apt ที่ไว้ใจได้ ปลอดภัย
+> เป็นระบบ OS ที่โอเพนซอร์ส 100% Free ครบเครื่องและนิยมใช้สูง
+> ถ้าต้องการ GUI เลือก XFCE (customizable and light weight)
+
+- [https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.2.0-amd64-netinst.iso]
+- มีชื่อผู้ใช้ root เป็นแอดมินหลัก แต่ไม่ใช้งานโดยตรง ให้สร้างผู้ใช้ทั่วไป แล้วควบคุมผ่าน sudo
+- ติดตั้ง bluetooth (blueman) หรือไดรเวอร์อื่นๆ ได้
+- สำหรับเครื่องผู้ใช้งานทั่วไป เลือกใช้
+  - Mint (Windows like)
+  - Elementary OS (MacOS like)
+  - Ubuntu (Android like)
 
 ```bash
-  # ดูรายละเอียดของระบบ
+  # ติดตั้ง xfonts-thai รองรับรูปแบบอักษรไทยบนอินเตอร์เน็ต
   sudo apt install xfonts-thai
+  # ติดตั้ง curl git เพื่อใช้ในการ download
   sudo apt install curl git
+  # ดูรายละเอียดของระบบ
   hostnamectl
 ```
 
@@ -37,14 +43,14 @@ navigation:
   sudo apt update
   #ติดตั้งโปรแกรมที่ปรับปรุง
   sudo apt upgrade -y
-  #ติดตั้งโปรแกรมพื้นฐาน
 ```
 
 ---
 
 ## 2. Node.js
 
-Node24 ติดตั้งบน Linux (Ubuntu / Debian) [https://nodejs.org/en/download]
+> JavaScript Runtime Environment,
+> Node24 [https://nodejs.org/en/download]
 
 ```bash
   # ดาวน์โหลด Node Install Script
@@ -61,11 +67,9 @@ Node24 ติดตั้งบน Linux (Ubuntu / Debian) [https://nodejs.org/e
 
 ## 3. Google Antigravity
 
-Antigravity Download ติดตั้งบน [deb-based Linux distributions (eg. Debian, Ubuntu)](https://antigravity.google/download/linux)
+> (VSCode, VSCodium) + AI + Google API [Antigravity Download](https://antigravity.google/download/linux)
 
 - เข้าใช้ด้วย Google Account
-- antigravity --verbose --vmodule="*/components/os_crypt/*=1"
-
 
 ```bash
   # โหลด key และเพิ่ม repo apt package
@@ -87,7 +91,7 @@ Antigravity Download ติดตั้งบน [deb-based Linux distributions 
 
 ## 4. Git Configuration
 
-ตั้งค่า Git ให้จดจำรหัสผ่าน (Personal Access Token) เพื่อไม่ต้องกรอกทุกครั้ง
+> ก่อนเริ่มใช้งาน ตั้งค่า Git ให้จดจำรหัสผ่าน (Personal Access Token) เพื่อไม่ต้องกรอกทุกครั้ง
 
 ```bash
   # ตั้งค่าชื่อผู้ใช้และอีเมล (เปลี่ยนเป็นของตัวเอง)
@@ -103,4 +107,43 @@ Antigravity Download ติดตั้งบน [deb-based Linux distributions 
 เมื่อทำการ `git push` หรือ `git pull` ครั้งแรก ระบบจะถาม Username และ Password:
 
 1. **Username**: ใส่ชื่อ GitHub Username ของคุณ
-2. **Password**: ใส่ **Personal Access Token (PAT)** (เช่น `ghp_...`) ห้ามใช้รหัสผ่าน Login ปกติ
+2. **Password**: ใส่รหัสผ่านสำหรับโปรเจ็คส่วนตัว หรือใช้ **Personal Access Token (PAT)** (เช่น `ghp_...`)
+
+## 5. MariaDB-Server
+
+> ระบบจัดการฐานข้อมูล MariaDB เป็นโอเพนซอร์ส 100% Free และใช้งานได้เสมือนกับ MySQL
+
+```bash
+  # ติดตั้งMariaDB Server
+  sudo apt install mariadb-server
+  # ตรวจสอบสถานะ MariaDB Server
+  sudo systemctl status mysql
+```
+
+- สร้าง User สิทธิการใช้งาน และฐานข้อมูล
+
+```bash
+  # เริ่มเข้าใช้งาน MariaDB ผ่าน terminal
+  sudo mysql
+  ...
+  CREATE USER 'username'@'%' IDENTIFIED BY 'password';
+  CREATE DATABASE database_name;
+  GRANT ALL PRIVILEGES ON database_name.* TO 'username'@'%';
+  FLUSH PRIVILEGES;
+  ...
+```
+
+- ตั้งค่าให้ MariaDB Server รองรับ client จากเครือข่ายโดยตรง
+
+```bash
+  sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+  ...
+    # bind-address = 127.0.0.1
+  ...
+```
+
+## 6. DBeaver
+
+> โปรแกรมเข้าใช้งานดูแลระบบฐานข้อมูล ที่รองรับหลากหลายระบบ และมีเครื่องมือที่ใช้งานครบถ้วน
+
+- [DBeaver Download](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb)
