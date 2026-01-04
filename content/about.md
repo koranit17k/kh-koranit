@@ -25,51 +25,56 @@
 
 ## 🛠 **Skills**
 
-|                                 |                                  |
-| ------------------------------- | -------------------------------- |
-| 🧠 Problem Solving              | 🔥 Never give up, think smart    |
-| ⚡ Learning                     | 📚 Always curious & improving    |
-| 📄 Documentation                | 🧼 Clear, clean, readable        |
-| 🤝 Communication                | 🤗 Friendly & collaborative      |
-| 📊 Data Analysis                | 🤖 Assisted by AI (supercharged) |
-| 🇬🇧 English (Reading/Writing)    | 👍 Fair & usable                 |
-| 🗣️ English (Speaking/Listening) | 🙂 Still learning                |
+::SkillGroup{title="General Skills"}
+::SkillCard{title="Problem Solving" description="🔥 Never give up, think smart"}
+::
+::SkillCard{title="Learning" description="📚 Always curious & improving"}
+::
+::SkillCard{title="Documentation" description="🧼 Clear, clean, readable"}
+::
+::SkillCard{title="Communication" description="🤗 Friendly & collaborative"}
+::
+::SkillCard{title="Data Analysis" description="🤖 Assisted by AI (supercharged)"}
+::
+::SkillCard{title="English (Reading/Writing)" description="👍 Fair & usable"}
+::
+::SkillCard{title="English (Speaking/Listening)" description="🙂 Still learning"}
+::
+::
 
 ---
 
 ## 💻 **Dev Skills**
 
-> **Programing Language**
+::SkillGroup{title="Programming Languages"}
+::SkillCard{title="C" percentage="80"}
+::
+::SkillCard{title="Python" percentage="80"}
+::
+::SkillCard{title="TypeScript" percentage="70"}
+::
+::SkillCard{title="Java" percentage="85"}
+::
+::SkillCard{title="SQL" percentage="90"}
+::
+::SkillCard{title="HTML & CSS" percentage="90"}
+::
+::SkillCard{title="Shellscript" percentage="90"}
+::
+::
 
-> |             |                |
-> | ----------- | -------------- |
-> | C           | ▓▓▓▓▓▓▓▓░░ 80% |
-> | Python      | ▓▓▓▓▓▓▓▓░░ 80% |
-> | TypeScript  | ▓▓▓▓▓▓▓░░░ 70% |
-> | Java        | ▓▓▓▓▓▓▓▓░░ 85% |
-> | SQL         | ▓▓▓▓▓▓▓▓▓░ 90% |
-> | HTML & CSS  | ▓▓▓▓▓▓▓▓▓░ 90% |
-> | Shellscript | ▓▓▓▓▓▓▓▓▓░ 90% |
-
-> **Database**
-
-> |               |                |
-> | ------------- | -------------- |
-> | PostgreSQL    | ▓▓▓▓▓▓▓▓░░ 80% |
-> | MySQL         | ▓▓▓▓▓▓▓▓░░ 80% |
-> | MariaDB       | ▓▓▓▓▓▓▓▓▓░ 90% |
-> | MS-SQL Server | ▓▓▓▓▓▓▓▓▓░ 90% |
-> | Radius        | ▓▓▓▓▓▓▓▓▓░ 90% |
-
-> **OS Platform**
-
-> |            |                |
-> | ---------- | -------------- |
-> | Linux      | ▓▓▓▓▓▓▓▓▓░ 90% |
-> | Docker     | ▓▓▓▓▓▓▓▓░░ 80% |
-> | MS-Windows | ▓▓▓▓▓▓▓▓░░ 80% |
-> | Android    | ▓▓▓▓▓▓▓▓░░ 80% |
-> | iOS        | ▓▓▓▓▓▓▓▓░░ 80% |
+::SkillGroup{title="Databases"}
+::SkillCard{title="PostgreSQL" percentage="80"}
+::
+::SkillCard{title="MySQL" percentage="80"}
+::
+::SkillCard{title="MariaDB" percentage="90"}
+::
+::SkillCard{title="MS-SQL Server" percentage="90"}
+::
+::SkillCard{title="Radius" percentage="90"}
+::
+::
 
 ---
 
