@@ -8,18 +8,23 @@ navigation:
 
 > คู่มือสำหรับติดตั้งซอฟต์แวร์ที่จำเป็นสำหรับการทำงาน / ฝึกงาน
 
+- ตรวจเช็คความเร็วคอมพิวเตอร์ [Online Benchmark - Speed Battle](https://speed-battle.com)
+  score **1,000-2,500**
+- ปรับแต่งระบบ Windows 11 ให้ทำงานเท่าที่จำเป็น [Win11 optimizer](https://github.com/hellzerg/optimizer?tab=readme-ov-file)
+- ติดตั้ง RemoveWindowsAI เพื่อปิดการทำงานของ Win11-AI [RemoveWindowsAI](https://github.com/zoicware/RemoveWindowsAI)
+
 ---
 
 ## 1. Linux OS
 
 ### Debian 13
 
-> สามารถติดตั้งแค่ระบบ OS พื้นฐาน สำหรับใช้เป็นเซิร์ฟเวอร์
-> การอัพเดทซอฟแวร์ผ่าน apt ที่ไว้ใจได้ ปลอดภัย
-> เป็นระบบ OS ที่โอเพนซอร์ส 100% Free ครบเครื่องและนิยมใช้สูง
+> สามารถติดตั้งแค่ระบบ OS พื้นฐาน สำหรับใช้เป็นเซิร์ฟเวอร์,
+> การอัพเดทซอฟแวร์ผ่าน apt ที่ไว้ใจได้ ปลอดภัย,
+> เป็นระบบ OS ที่โอเพนซอร์ส 100% Free ครบเครื่องและนิยมใช้สูง,
 > ถ้าต้องการ GUI เลือก XFCE (customizable and light weight)
 
-- [https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.2.0-amd64-netinst.iso]
+- [download Debian 13.2.0 iso file](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.2.0-amd64-netinst.iso)
 - มีชื่อผู้ใช้ root เป็นแอดมินหลัก แต่ไม่ใช้งานโดยตรง ให้สร้างผู้ใช้ทั่วไป แล้วควบคุมผ่าน sudo
 - ติดตั้ง bluetooth (blueman) หรือไดรเวอร์อื่นๆ ได้
 - สำหรับเครื่องผู้ใช้งานทั่วไป เลือกใช้
