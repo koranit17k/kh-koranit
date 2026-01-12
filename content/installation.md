@@ -23,7 +23,7 @@ navigation:
 > การอัพเดทซอฟแวร์ผ่าน apt ที่ไว้ใจได้ ปลอดภัย,
 > เป็นระบบ OS ที่โอเพนซอร์ส 100% Free ครบเครื่องและนิยมใช้สูง
 
-- [Elementary OS 8 ](https://elementary.io/)
+- [Download Elementary OS 8 ](https://elementary.io/)
 - ติดตั้งโดยใช้ Flash Drive
 - ใช้คำสั่ง sudo เพื่อใช้สิทธิ์ Administration ในการใช้คำสั่งใน Terminal Consoles
 - สำหรับเครื่องผู้ใช้งานทั่วไป เลือกใช้
