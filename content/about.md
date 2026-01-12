@@ -7,19 +7,29 @@
 - **Height:** 175 cm
 - **Weight:** 57 kg
 - **Hometown:** Phuket, Thailand
-- **Interests:** Web Dev, Backend, Data,  Data Engineering, Data Analysis
+- **Interests:** Web Dev, Backend, Data, Data Engineering, Data Analysis
 - **Personality:** Introvert, Friendly, Curious, Always Learning
-- **Hobbies:** Playing Video Games, Watching Movies, listening to music 
+- **Hobbies:** <br>
+  - Playing Video Games look like FPS (Valorant,CS2,Apex Legends) Because i will more focused,Make Quicker Decision and predict Enemy Move and Turn based (7 Knight Rebirth) becasue i like to play with strategy and Management Resources For Maximum Benefit <br>
+  - I enjoy watching action, horror, and drama movies and TV series to relieve stress and have fun.
 
 ---
 
 ## 🎓 **Education**
+
+#### **Bachelor Degree**
 
 - **Degree:** Bachelor of Science (Digital Business)
 - **Major:** B.Sc. (Digital Business)
 - **Institute:** Prince of Songkla University Phuket Campus
 - **Graduation Year:** 2026
 - **GPA:** 3.66
+
+#### Senior High School
+
+- **Program:** Arts–Mathematics Program
+- **Institute:** Phuketwittayalai School
+- **Graduation Year:** 2022
 
 ---
 
@@ -80,7 +90,7 @@
 
 ## **Training Experience**
 
-- ปี 4 เทอม 2 สหกิจศึกษา ด้านการพัฒนาซอฟต์แวร์ บจ.กี่หิ้นการไฟฟ้า ภูเก็ต 2026 Jan-May
+- ปี 4 เทอม 2 สหกิจศึกษา ด้านการพัฒนาซอฟต์แวร์ บจ.กี่หิ้นการไฟฟ้า ภูเก็ต 12 Jan - 8 May 2026
 
 ---
 
@@ -100,14 +110,14 @@
 
 ```json
 {
-  "name": "wasin.dev",
-  "email": "your-email@example.com",
-  "github": "https://github.com/your-profile",
+  "name": "Koranit Keawmanee",
+  "email": "koranit.17k@gmail.com",
+  "github": "https://github.com/koranit17k",
   "linkedin": "https://linkedin.com/in/your-profile",
   "line": "https://line.me/ti/p/your-profile",
-  "discord": "https://discord.com/users/your-profile",
+  "discord": "https://discord.com/users/323065286045466624",
   "website": "https://your-portfolio.com",
-  "phone": "+66-xxx-xxx-xxx"
+  "phone": "+66 93-674-9281"
 }
 ```
 

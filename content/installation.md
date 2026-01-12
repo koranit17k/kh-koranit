@@ -17,16 +17,15 @@ navigation:
 
 ## 1. Linux OS
 
-### Debian 13
+### Elementary OS 8
 
 > สามารถติดตั้งแค่ระบบ OS พื้นฐาน สำหรับใช้เป็นเซิร์ฟเวอร์,
 > การอัพเดทซอฟแวร์ผ่าน apt ที่ไว้ใจได้ ปลอดภัย,
-> เป็นระบบ OS ที่โอเพนซอร์ส 100% Free ครบเครื่องและนิยมใช้สูง,
-> ถ้าต้องการ GUI เลือก XFCE (customizable and light weight)
+> เป็นระบบ OS ที่โอเพนซอร์ส 100% Free ครบเครื่องและนิยมใช้สูง
 
-- [download Debian 13.2.0 iso file](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.2.0-amd64-netinst.iso)
-- มีชื่อผู้ใช้ root เป็นแอดมินหลัก แต่ไม่ใช้งานโดยตรง ให้สร้างผู้ใช้ทั่วไป แล้วควบคุมผ่าน sudo
-- ติดตั้ง bluetooth (blueman) หรือไดรเวอร์อื่นๆ ได้
+- [Elementary OS 8 ](https://elementary.io/)
+- ติดตั้งโดยใช้ Flash Drive
+- ใช้คำสั่ง sudo เพื่อใช้สิทธิ์ Administration ในการใช้คำสั่งใน Terminal Consoles
 - สำหรับเครื่องผู้ใช้งานทั่วไป เลือกใช้
   - Mint (Windows like)
   - Elementary OS (MacOS like)
@@ -66,6 +65,8 @@ navigation:
   nvm install 24
   # ติดตั้ง pnpm
   corepack enable pnpm
+  # รัน Local Server
+  pnpm run dev
 ```
 
 ---
