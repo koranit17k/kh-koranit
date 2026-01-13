@@ -37,8 +37,9 @@ Fork project from
 - group by เลือกข้อมูลที่จัดกลุ่ม เพื่อไม่ได้เกิดความนับซ้ำ ของข้อมูล
 - order by เลือกข้อมูลที่ต้องการเรียงลำดับ
 
-Glossary SQL
-String คำ Text
-Concat การรวมข้อมูล 2 table เข้าด้วยกัน
+#### Glossary SQL
+
+- String คำ Text
+- Concat การรวมข้อมูล 2 table เข้าด้วยกัน
 
 ---
