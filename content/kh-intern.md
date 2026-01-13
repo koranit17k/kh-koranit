@@ -36,10 +36,11 @@ Fork project from
 - where เลือกข้อมูลที่ต้องการใน table
 - group by เลือกข้อมูลที่จัดกลุ่ม เพื่อไม่ได้เกิดความนับซ้ำ ของข้อมูล
 - order by เลือกข้อมูลที่ต้องการเรียงลำดับ
+- Limit เลือกว่าต้องการข้อมูลกี่จำนวน
 
 #### Glossary SQL
 
 - String คำ Text
-- Concat การรวมข้อมูล 2 table เข้าด้วยกัน
+- Concat การ Merge table 2 table เข้าด้วยกัน
 
 ---
