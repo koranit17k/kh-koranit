@@ -31,6 +31,8 @@ navigation:
   - Mint (Windows like)
   - Elementary OS (MacOS like)
   - Ubuntu (Android like)
+- สำหรับใช้พัฒนาโปรแกรม แนะนำ
+  - MX-Linux 25 Fluxbox Edition (Minimal Config)
 
 ```bash
   # ติดตั้ง xfonts-thai รองรับรูปแบบอักษรไทยบนอินเตอร์เน็ต
@@ -145,6 +147,20 @@ navigation:
   ...
     # bind-address = 127.0.0.1
   ...
+```
+
+- การแบ็คอัพฐานข้อมูล mysqldump
+
+```
+sudo mysqldump --routines payroll payroll > payroll.sql
+zip payroll payroll.sql
+```
+
+- การ import ข้อมูล \*.sql
+
+```
+unzip payroll.zip
+sudo mysql payroll < payroll.sql
 ```
 
 ## 6. DBeaver
