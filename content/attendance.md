@@ -111,8 +111,7 @@ select day_case, lunch_case, night_case, count(*) as count
 from vAttendance
 where dateAt between '2025-01-01' and '2025-12-31' and
       morning is not null and
-          (evening is not null || night is not null || early is not null) and
-          ((lunch_out is null && lunch_in is null) || lunch_in <> lunch_out)
+          (evening is not null || night is not null || early is not null)
 group by day_case, lunch_case, night_case;
 ```
 </details>
@@ -159,9 +158,9 @@ group by day_case, lunch_case, night_case;
 
 ```sql
 -- เคสแดง
-select day_case, lunch_case, night_case, count(*)
+select day_case, lunch_case, night_case, count(*) as count
 from vAttendance
-where dateAt between '2025-01-01' and '2025-12-31'    and
+where dateAt between '2025-01-01' and '2025-12-31' and
 (
     lunch_out is null and lunch_in is null and
     (morning is null or  (evening is null and night is null and early is null)) or
