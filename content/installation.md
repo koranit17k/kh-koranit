@@ -174,3 +174,12 @@ sudo mysql payroll < payroll.sql
 > โปรแกรมเข้าใช้งานดูแลระบบฐานข้อมูล ที่รองรับหลากหลายระบบ และมีเครื่องมือที่ใช้งานครบถ้วน
 
 - [DBeaver Download](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb)
+
+## 7. Zed editor
+
+> โปรแกรมแก้ไขโค้ดที่ทำงานบนระบบปฏิบัติการ Linux, macOS และ Windows
+> เหมาะสำหรับนักพัฒนาโปรแกรม ที่ต้องการใช้ทรัพยากรน้อย และมีความเร็วสูง Interface ดูเรียบง่าย
+
+```bash
+  curl -f https://zed.dev/install.sh | sh
+```
