@@ -1,12 +1,12 @@
 ---
+title: Software & Installation
+description: คู่มือสำหรับติดตั้งซอฟต์แวร์ที่จำเป็นสำหรับการทำงาน / ฝึกงาน
 navigation:
-  label: "Installation"
-  to: "installation"
+  icon: i-lucide-download
+seo:
+  description:
+  title: Software & Installation
 ---
-
-# Software & Installation Guide
-
-> คู่มือสำหรับติดตั้งซอฟต์แวร์ที่จำเป็นสำหรับการทำงาน / ฝึกงาน
 
 - ตรวจเช็คความเร็วคอมพิวเตอร์ [Online Benchmark - Speed Battle](https://speed-battle.com)
   score **1,000-2,500**

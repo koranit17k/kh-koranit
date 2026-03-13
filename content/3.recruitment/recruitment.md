@@ -1,10 +1,12 @@
 ---
+title: รับสมัครนักศึกษาฝึกงาน
+description: ประกาศรับสมัคร นักเรียนนักศึกษาฝึกงาน
 navigation:
-  label: "รับสมัครนักศึกษาฝึกงาน"
-  to: "recruitment"
+  icon: i-lucide-megaphone
+seo:
+  description: 
+  title: รับสมัครนักศึกษาฝึกงาน
 ---
-
-# 📢 รับสมัครนักศึกษาฝึกงาน
 
 <img src="/images/khlogo-xs.png" style="width:auto; height:auto;" alt="KEEHIN" />
 

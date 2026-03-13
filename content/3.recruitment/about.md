@@ -1,3 +1,12 @@
+---
+title: About
+description: Get started with Docus.
+navigation:
+  icon: i-lucide-user
+seo:
+  description: Resume, Personality, Education, Skills, Projects, Contact
+  title: About Developer
+---
 ## 👤 **Personal Information**
 
 - **Name:**

@@ -1,77 +1,135 @@
 ---
-navigation:
-  label: "Index"
-  to: "/"
-  title: "คู่มือการฝึกงาน"
+seo:
+  title: Write beautiful docs with Markdown
+  description: Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. Docus brings together the best of the Nuxt ecosystem. Powered by Nuxt UI.
 ---
 
-| [**รับนักศึกษาฝึกงาน**](recruitment) | [**การติดตั้งซอฟแวร์**](installation) | [**โครงการคู่มือฝึกงาน**](kh-intern) | [**อภิธานศัพท์**](glossary) | [**เกี่ยวกับผู้จัดทำ**](about) |
-| :----------------------------------- | :------------------------------------ | :----------------------------------- | :-------------------------- | :----------------------------- |
+::u-page-hero
+#title
+Write beautiful docs with Markdown
 
-# คู่มือการฝึกงาน (Internship Handbook)
+#description
+Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
 
-เอกสารนี้รวบรวมข้อตกลง รายละเอียดโครงการ และหน้าที่ความรับผิดชอบสำหรับการฝึกงาน
+Docus brings the best of the Nuxt ecosystem into one CLI.
 
-## 🧑‍💻 ข้อมูลผู้ฝึกงาน
+#links
+  :::u-button
+  ---
+  color: neutral
+  size: xl
+  to: /getting-started/installation
+  trailing-icon: i-lucide-arrow-right
+  ---
+  Get started
+  :::
 
-- **ชื่อ-นามสกุล:** [ชื่อ นามสกุล]
-- **ชื่อเล่น:** [ชื่อเล่น]
-- **ตำแหน่ง:** นักศึกษาฝึกงาน (Intern Developer)
+  :::u-button
+  ---
+  color: neutral
+  icon: simple-icons-github
+  size: xl
+  to: https://github.com/nuxt-content/docus
+  variant: outline
+  ---
+  Star on GitHub
+  :::
+::
 
-## 🏫 ข้อมูลการศึกษา
+::u-page-section
+#title
+Shipped with many features
 
-- **สถาบัน:** วิทยาลัยเทคนิคภูเก็ต / [หรือสถาบันอื่น]
-- **คณะ/สาขาวิชา:** [ระบุสาขาวิชา]
-- **ระดับชั้น:** ปริญญาตรี ปี [ชั้นปี]
-- **อาจารย์ที่ปรึกษา:** [ชื่ออาจารย์]
+#features
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://nuxt.com
+  ---
+  #title
+  Built with [Nuxt 4]{.text-primary}
 
-## 📅 ระยะเวลาและเวลาทำการ
+  #description
+  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  :::
 
-- **ระยะเวลา:** 1 มกราคม 2569 - 31 ธันวาคม 2569
-- **วันเวลาทำงาน:** จันทร์ - ศุกร์ | 08:30 - 16:30 น.
-- **สถานที่:** บริษัท กี่หิ้นการไฟฟ้า จำกัด (สำนักงานใหญ่)
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://ui.nuxt.com/
+  ---
+  #title
+  Powered by [Nuxt UI]{.text-primary}
 
----
+  #description
+  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  :::
 
-## 📋 หน้าที่และภาระงาน (Duties & Responsibilities)
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://content.nuxt.com
+  ---
+  #title
+  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
 
-1. **Frontend Development**: รับผิดชอบงานพัฒนา Web Application ด้วย Nuxt 4, Vue 3 และ Tailwind CSS
-2. **System Documentation**: จัดทำคู่มือการพัฒนาระบบงานและเอกสารทางเทคนิค
-3. **Database Design**: ออกแบบโครงสร้างฐานข้อมูล MySQL/MariaDB สำหรับระบบทดสอบ
-4. **HW & SW Maintenance**: ดูแลและบำรุงรักษาฮาร์ดแวร์และซอฟแวร์ที่ใช้ในระบบ
+  #description
+  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  :::
 
-## 🚀 รายละเอียดโครงการ (Projects)
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  ---
+  #title
+  Customize with [Nuxt App Config]{.text-primary}
 
-| โครงการ                    | รายละเอียด                        |
-| :------------------------- | :-------------------------------- |
-| **1. Internship Handbook** | ระบบคู่มือฝึกงานออนไลน์ (เว็บนี้) |
-| **2. Time Attendance**     | ระบบบันทึกเวลาเข้า-ออกงาน         |
+  #description
+  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  :::
 
----
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://content.nuxt.com/studio
+  ---
+  #title
+  Edit in production with [Nuxt Studio]{.text-primary}
 
-## 🎯 เป้าหมายการเรียนรู้ (Learning Objectives)
+  #description
+  Edit your content in production with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  :::
 
-- เรียนรู้การทำงานแบบมืออาชีพ (Professional workflow)
-- เสริมสร้างทักษะ Nuxt 4 และ Tailwind CSS v4
-- การใช้งาน Git และ CI/CD Pipeline เบื้องต้น
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: https://ui.nuxt.com/components/content-search
+  ---
+  #title
+  Built-in navigation and [full-text search]{.text-primary}
 
-## 👥 ผู้ดูแลการฝึกงาน (Supervisors)
-
-- **หัวหน้างาน:** นายวศิน เสงี่ยมกุล
+  #description
+  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  :::
+::
 
 ---
 
 ::alert{color="lime"}
-
 - จอมยุทธยอดฝีมือ สำนึกแห่งกระบี่อยู่ที่ใจ เพียงกิ่งไม้ก็ใช้ได้ต่างกระบี่
   > กระบี่เย้ยยุทธจักร, กิมย้ง น.นพรัตน์
 - โปรแกรมเมอร์ที่แท้จริง เพียงกระดาษกับดินสอ ก็เขียนโค้ดได้
 - เมื่อบรรลุมรรคาแห่งโปรแกรม ในมือไม่มีโค้ด ในใจก็ไม่มีโค้ด โค้ดอยู่ที่ AI
   > Tom 'N Jerry 2025-12-10
-
 ::
 
 ---
 
-::counter
-::
+:counter

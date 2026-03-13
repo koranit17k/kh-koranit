@@ -1,13 +1,11 @@
 ---
+title: Glossary
+description: รายการศัพท์ที่เรียนรู้จากการฝึกงาน เขียนจากความเข้าใจและลักษณะการใช้งานจริง
 navigation:
-  label: "Glossary"
-  to: "glossary"
----
-
-# 📘 Glossary
-
-รายการศัพท์ที่เรียนรู้จากการฝึกงาน เขียนจากความเข้าใจและลักษณะการใช้งานจริง
-
+  icon: i-lucide-arrow-up-a-z
+seo:
+  description: 
+  title: Glossary
 ---
 
 ### **API**
