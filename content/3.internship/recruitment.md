@@ -1,11 +1,16 @@
 ---
-title: รับสมัครนักศึกษาฝึกงาน
-description: ประกาศรับสมัคร นักเรียนนักศึกษาฝึกงาน
+title: recruitment
+description: Welcome to Docus theme documentation.
 navigation:
-  icon: i-lucide-megaphone
+  icon: i-lucide-house
+seo:
+  title: recruitment
+  description: Discover how to create, manage, and publish documentation effortlessly with Docus.
 ---
 
-![KEEHIN](/images/khlogo-xs.png){style="width:auto; height:auto;"}
+# 📢 รับสมัครนักศึกษาฝึกงาน
+
+<img src="/images/khlogo-xs.png" style="width:auto; height:auto;" alt="KEEHIN" />
 
 ## KEEHIN Software Development
 
@@ -19,7 +24,7 @@ navigation:
 - 🔎 วิเคราะห์และดึงข้อมูลด้วย SQL
 - 🛢️ ใช้งาน **MariaDB** และ **SkySQL**
 - 🖥️ ใช้งานฐานข้อมูลผ่าน **DBeaver**
-sda
+
 🧑‍💻 **Development / Web Application**
 
 - 🌐 พัฒนาเว็บแอปด้วย **Nuxt.js**, **Node.js**, **TypeScript**
@@ -73,8 +78,8 @@ sda
 
 - 📄 Resume (ความสนใจ ความถนัด)
 - 🏫 หนังสือส่งตัวจากสถาบัน (ถ้ามี)
-- 📨 Email: <swasin185@gmail.com>
-- 📘 Facebook: <https://www.facebook.com/wasin.sa>
-- 💬 Discord: <https://discord.com/users/tomnjerry4382>
+- 📨 Email: swasin185@gmail.com
+- 📘 Facebook: https://www.facebook.com/wasin.sa
+- 💬 Discord: https://discord.com/users/tomnjerry4382
 
 ---

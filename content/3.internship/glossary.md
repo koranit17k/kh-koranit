@@ -1,16 +1,22 @@
 ---
-title: Glossary
-description: รายการศัพท์ที่เรียนรู้จากการฝึกงาน เขียนจากความเข้าใจและลักษณะการใช้งานจริง
+title: glossary
+description: Welcome to Docus theme documentation.
 navigation:
-  icon: i-lucide-arrow-up-a-z
+  icon: i-lucide-house
 seo:
-  description: 
-  title: Glossary
+  title: glossary
+  description: Discover how to create, manage, and publish documentation effortlessly with Docus.
+---
+
+# 📘 Glossary
+
+รายการศัพท์ที่เรียนรู้จากการฝึกงาน เขียนจากความเข้าใจและลักษณะการใช้งานจริง
+
 ---
 
 ### **API**
 
-> Application-Programming-Interface ชื่อบริการและรูปแบบข้อมูลที่กำหนด สำหรับเขียนโปรแกรมใช้งาน มักใช้สำหรับการสื่อสารระหว่าง Backend และ Frontend
+> Application-Programming-Interface ชื่อบริการและรูปแบบข้อมูลที่กำหนด สำหรับเขียนโปรแกรมใช้งาน มักใช้สำหรับการสื่อสารระหว่าง Backend และ Frontend หรือก็คือ เป็นตัวกลางในการส่งและเรียกข้อมูล 
 
 ### **Authentication**
 
@@ -27,5 +33,13 @@ seo:
 ### **Cache**
 
 > ชั้นเก็บข้อมูลชั่วคราวเพื่อเพิ่มประสิทธิภาพในการเรียกข้อมูลที่ถูกใช้บ่อย
+
+### **Git**
+
+> ที่จดเก็บโค้ด และ Backup โค้ด
+
+### **Fork**
+
+> การคัดลอกสำเนาโปรเจคจาก Github มาเป็นของตัวเอง
 
 ---
