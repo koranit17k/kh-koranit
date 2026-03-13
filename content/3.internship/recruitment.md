@@ -19,7 +19,7 @@ navigation:
 - 🔎 วิเคราะห์และดึงข้อมูลด้วย SQL
 - 🛢️ ใช้งาน **MariaDB** และ **SkySQL**
 - 🖥️ ใช้งานฐานข้อมูลผ่าน **DBeaver**
-
+sda
 🧑‍💻 **Development / Web Application**
 
 - 🌐 พัฒนาเว็บแอปด้วย **Nuxt.js**, **Node.js**, **TypeScript**
