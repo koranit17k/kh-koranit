@@ -3,12 +3,9 @@ title: รับสมัครนักศึกษาฝึกงาน
 description: ประกาศรับสมัคร นักเรียนนักศึกษาฝึกงาน
 navigation:
   icon: i-lucide-megaphone
-seo:
-  description: 
-  title: รับสมัครนักศึกษาฝึกงาน
 ---
 
-<img src="/images/khlogo-xs.png" style="width:auto; height:auto;" alt="KEEHIN" />
+![KEEHIN](/images/khlogo-xs.png){style="width:auto; height:auto;"}
 
 ## KEEHIN Software Development
 
@@ -76,8 +73,8 @@ seo:
 
 - 📄 Resume (ความสนใจ ความถนัด)
 - 🏫 หนังสือส่งตัวจากสถาบัน (ถ้ามี)
-- 📨 Email: swasin185@gmail.com
-- 📘 Facebook: https://www.facebook.com/wasin.sa
-- 💬 Discord: https://discord.com/users/tomnjerry4382
+- 📨 Email: <swasin185@gmail.com>
+- 📘 Facebook: <https://www.facebook.com/wasin.sa>
+- 💬 Discord: <https://discord.com/users/tomnjerry4382>
 
 ---

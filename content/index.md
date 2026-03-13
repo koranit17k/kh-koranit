@@ -1,6 +1,6 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
+  title: KEEHIN
   description: Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. Docus brings together the best of the Nuxt ecosystem. Powered by Nuxt UI.
 ---
 
@@ -18,10 +18,10 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /internship/recruitment
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  รับสมัคร
   :::
 
   :::u-button
