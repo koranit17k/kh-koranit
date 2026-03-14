@@ -3,15 +3,12 @@ seo:
   title: KEEHIN
   description: Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. Docus brings together the best of the Nuxt ecosystem. Powered by Nuxt UI.
 ---
-
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+คู่มือนักศึกษาฝึกงาน
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
-
-Docus brings the best of the Nuxt ecosystem into one CLI.
+ฝึกหัดการสร้างซอฟแวร์เพื่อใช้งานจริง เรียนรู้จากการพัฒนาโครงงาน และแนวทางการทำงานร่วมกับ Ai โดยใช้ทักษะการคิด วิเคราะห์ แยกแยะ
 
 #links
   :::u-button
@@ -19,26 +16,27 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   color: neutral
   size: xl
   to: /internship/recruitment
-  trailing-icon: i-lucide-arrow-right
   ---
-  รับสมัคร
+  ![KEEHIN](/images/khlogo-xs.png){class='w-auto h-auto'}
   :::
 
   :::u-button
   ---
-  color: neutral
-  icon: simple-icons-github
+  color: secondary
+  icon: simple-icons-nuxt
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://docus.dev/en
   variant: outline
   ---
-  Star on GitHub
+  Docus.dev
   :::
+
 ::
+
 
 ::u-page-section
 #title
-Shipped with many features
+เทคโนโลยีต่างๆ ที่ใช้ในการพัฒนาซอฟแวร์
 
 #features
   :::u-page-feature
@@ -122,14 +120,12 @@ Shipped with many features
 
 ---
 
-::alert{color="lime"}
+::alert{color="red"}
 - จอมยุทธยอดฝีมือ สำนึกแห่งกระบี่อยู่ที่ใจ เพียงกิ่งไม้ก็ใช้ได้ต่างกระบี่
   > กระบี่เย้ยยุทธจักร, กิมย้ง น.นพรัตน์
 - โปรแกรมเมอร์ที่แท้จริง เพียงกระดาษกับดินสอ ก็เขียนโค้ดได้
 - เมื่อบรรลุมรรคาแห่งโปรแกรม ในมือไม่มีโค้ด ในใจก็ไม่มีโค้ด โค้ดอยู่ที่ AI
   > Tom 'N Jerry 2025-12-10
 ::
-
----
 
 :counter

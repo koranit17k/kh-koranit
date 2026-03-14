@@ -4,9 +4,6 @@ description: ประกาศรับสมัคร นักเรียน
 navigation:
   icon: i-lucide-megaphone
 ---
-
-![KEEHIN](/images/khlogo-xs.png){style="width:auto; height:auto;"}
-
 ## KEEHIN Software Development
 
 - **ระยะเวลา:** 2–4 เดือน
@@ -49,7 +46,7 @@ navigation:
 - มัธยมปลาย / ปวส. / ป.ตรี สาขาคอมพิวเตอร์ หรือที่เกี่ยวข้อง
 - มีพื้นฐานการเขียนโปรแกรม ไล่ลำดับการทำงาน แก้ไขจุดผิดพลาดได้
 - รับผิดชอบหน้าที่ และชอบแก้ไขปัญหา
-- ผ่านแบบทดสอบ ความเข้าใจ [ตัวอย่างโปรแกรม example.html](code/example.html)
+- ผ่านแบบทดสอบ ความเข้าใจ [ตัวอย่างโปรแกรม example.html](/code/example.html){target="_blank"}
 
 ## 🕒 เวลาทำงาน
 
