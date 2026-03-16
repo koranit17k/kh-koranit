@@ -18,6 +18,7 @@ seo:
   to: /internship/recruitment
   ---
   ![KEEHIN](/images/khlogo-xs.png){class='w-auto h-auto'}
+
   :::
 
   :::u-button
