@@ -21,7 +21,7 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   to: /internship/recruitment
   trailing-icon: i-lucide-arrow-right
   ---
-  รับสมัคร
+  Get Started
   :::
 
   :::u-button

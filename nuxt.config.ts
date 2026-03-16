@@ -13,4 +13,13 @@ export default defineNuxtConfig({
       exclude: ["@nuxtjs/mdc"],
     },
   },
+   studio: {
+    route: '/_studio',
+    repository: {
+      provider: 'github',
+      owner: 'koranit.17k',
+      repo: 'kh-koranit',
+      branch: 'master' // ถ้า repo ใช้ master ก็เปลี่ยนเป็น master
+    }
+  }
 });
