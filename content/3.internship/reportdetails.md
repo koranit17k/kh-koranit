@@ -2,7 +2,7 @@
 title: reportdetails
 description: Welcome to Docus theme documentation.
 navigation:
-  icon: i-lucide-house
+  icon: i-lucide-clipboard-minus
 seo:
   title: reportdetails
   description: Discover how to create, manage, and publish documentation effortlessly with Docus.

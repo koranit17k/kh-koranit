@@ -2,7 +2,7 @@
 title: glossary
 description: Welcome to Docus theme documentation.
 navigation:
-  icon: i-lucide-house
+  icon: i-lucide-book-type
 seo:
   title: glossary
   description: Discover how to create, manage, and publish documentation effortlessly with Docus.

@@ -2,7 +2,7 @@
 title: about
 description: Welcome to Docus theme documentation.
 navigation:
-  icon: i-lucide-house
+  icon: i-lucide-user
 seo:
   title: about
   description: Discover how to create, manage, and publish documentation effortlessly with Docus.

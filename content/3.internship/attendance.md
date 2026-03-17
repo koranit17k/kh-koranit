@@ -2,7 +2,7 @@
 title: attendance
 description: Welcome to Docus theme documentation.
 navigation:
-  icon: i-lucide-house
+  icon: i-lucide-calendar-clock
 seo:
   title: attendance
   description: Discover how to create, manage, and publish documentation effortlessly with Docus.

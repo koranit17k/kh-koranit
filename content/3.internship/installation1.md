@@ -1,10 +1,10 @@
 ---
-title: Installation1
+title: installation1
 description: Welcome to Docus theme documentation.
 navigation:
-  icon: i-lucide-house
+  icon: i-lucide-download
 seo:
-  title: Installation1
+  title: installation1
   description: Discover how to create, manage, and publish documentation effortlessly with Docus.
 ---
 

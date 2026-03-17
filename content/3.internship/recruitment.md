@@ -2,7 +2,7 @@
 title: recruitment
 description: Welcome to Docus theme documentation.
 navigation:
-  icon: i-lucide-house
+  icon: i-lucide-user-plus
 seo:
   title: recruitment
   description: Discover how to create, manage, and publish documentation effortlessly with Docus.
