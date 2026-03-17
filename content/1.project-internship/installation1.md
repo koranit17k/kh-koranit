@@ -191,5 +191,7 @@ sudo mysql payroll < payroll.sql
 ```bash
   sudo apt install nginx
 ```
-
-
+รันผ่าน
+```bash
+npx serve dist -l 3000
+```

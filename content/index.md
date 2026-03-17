@@ -15,7 +15,7 @@ seo:
   ---
   color: neutral
   size: xl
-  to: /internship/recruitment
+  to: /project-internship/internship
   ---
   ![KEEHIN](/images/khlogo-xs.png){class='w-auto h-auto'}
 
