@@ -183,3 +183,13 @@ sudo mysql payroll < payroll.sql
 ```bash
   curl -f https://zed.dev/install.sh | sh
 ```
+
+## 8. nginx
+
+> เป็นตัวกลางในการรัน local
+> ใช้ config ในการแก้ไขด้วย
+```bash
+  sudo apt install nginx
+```
+
+
