@@ -44,7 +44,7 @@ seo:
 
 ---
 
-## 2. query sql command
+## query sql command
 
 - Select เลือกข้อมูลจาก table
 - from เลือก table

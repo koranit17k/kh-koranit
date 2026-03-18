@@ -1,6 +1,6 @@
 ---
 title: Project Structure
-description: Learn about the project structure of Docus v4.
+description: Project structure of attendance
 navigation:
   icon: i-lucide-folder-tree
 ---
