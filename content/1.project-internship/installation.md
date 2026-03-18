@@ -121,6 +121,8 @@ seo:
 1. **Username**: ใส่ชื่อ GitHub Username ของคุณ
 2. **Password**: ใส่รหัสผ่านสำหรับโปรเจ็คส่วนตัว หรือใช้ **Personal Access Token (PAT)** (เช่น `ghp_...`)
 
+---
+
 ## 5. MariaDB-Server
 
 > ระบบจัดการฐานข้อมูล MariaDB เป็นโอเพนซอร์ส 100% Free และใช้งานได้เสมือนกับ MySQL
@@ -168,12 +170,15 @@ zip payroll payroll.sql
 unzip payroll.zip
 sudo mysql payroll < payroll.sql
 ```
+---
 
 ## 6. DBeaver
 
 > โปรแกรมเข้าใช้งานดูแลระบบฐานข้อมูล ที่รองรับหลากหลายระบบ และมีเครื่องมือที่ใช้งานครบถ้วน
 
 - [DBeaver Download](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb)
+
+---
 
 ## 7. Zed editor
 

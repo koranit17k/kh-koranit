@@ -19,8 +19,8 @@ seo:
 - **Hometown:** Phuket, Thailand
 - **Interests:** Web Dev, Backend, Data, Data Engineering, Data Analysis
 - **Personality:** Introvert, Friendly, Curious, Always Learning
-- **Hobbies:** <br>
-  - Playing Video Games look like FPS (Valorant,CS2,Apex Legends) Because i will more focused,Make Quicker Decision and predict Enemy Move and Turn based (7 Knight Rebirth) becasue i like to play with strategy and Management Resources For Maximum Benefit <br>
+- **Hobbies:** :br
+  - Playing Video Games look like FPS (Valorant,CS2,Apex Legends) Because i will more focused,Make Quicker Decision and predict Enemy Move and Turn based (7 Knight Rebirth) becasue i like to play with strategy and Management Resources For Maximum Benefit :br
   - I enjoy watching action, horror, and drama movies and TV series to relieve stress and have fun.
 
 ---
@@ -67,23 +67,22 @@ seo:
 ## 💻 **Dev Skills**
 
 ::SkillGroup{title="Programming Languages"}
-::
 ::SkillCard{title="SQL" percentage="50"}
 ::
 ::SkillCard{title="HTML & CSS" percentage="50"}
 ::
 ::SkillCard{title="Shellscript" percentage="50"}
 ::
-
-::SkillGroup{title="Databases"}
 ::
+
+::SkillGroup{title="Databases" }
 ::SkillCard{title="MySQL/MariaDB" percentage="50"}
+::
 ::
 
 ## **Program**
 
 ::SkillGroup{title="Program"}
-::
 ::SkillCard{title="PowerBI" percentage="80"}
 ::
 ::SkillCard{title="Antigravity" percentage="80"}
@@ -98,7 +97,7 @@ seo:
 ::
 ::SkillCard{title="Jasper Report" percentage="60"}
 ::
-
+::
 
 ::SkillGroup{title="AI Agent"}
 ::SkillCard{title="ChatGPT" percentage="80"}
@@ -111,13 +110,18 @@ seo:
 ::
 ::SkillCard{title="Antigravity" percentage="80"}
 ::
+::
+
 ---
 
 ## **Training Experience**
 
-- ปี 4 เทอม 2 สหกิจศึกษา ด้านการพัฒนาซอฟต์แวร์ บจ.กี่หิ้นการไฟฟ้า ภูเก็ต 12 Jan - 8 May 2026
+<div style="display: flex; justify-content: space-between;">
+  <strong>สหกิจศึกษา ตำแหน่ง Data Analyst</strong>
+  <span>12 Jan – 8 May 2026</span>
+</div>
+<div>บจก. กี่หิ้นการไฟฟ้า ภูเก็ต</div>
 
----
 
 ## 📁 **Portfolio & Projects**
 
@@ -142,9 +146,7 @@ seo:
   "name": "Koranit Keawmanee",
   "email": "koranit.17k@gmail.com",
   "github": "https://github.com/koranit17k",
-  "linkedin": "https://linkedin.com/in/your-profile",
-  "discord": "https://discord.com/users/323065286045466624",
-  "website": "https://your-portfolio.com",
+  "website": "https://kh-koranit.vercel.app/",
   "phone": "+66 93-674-9281"
 }
 ```

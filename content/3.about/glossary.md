@@ -68,7 +68,7 @@ seo:
   วิธีใช้ CALL procedure_name();
 - truncate ล้างข้อมูลใน table
 
-#### Glossary SQL
+## Glossary SQL
 
 - String คำ Text
 - Concat การ Merge table 2 table เข้าด้วยกัน
