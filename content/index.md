@@ -3,22 +3,17 @@ seo:
   title: KEEHIN
   description: Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. Docus brings together the best of the Nuxt ecosystem. Powered by Nuxt UI.
 ---
+
 ::u-page-hero
 #title
 กรณิศ แก้วมณี
 
 #description
-เว็บสำหรับบันทึกการเรียนรู้และพัฒนาซอฟแวร์เพื่อใช้งานจริง การพัฒนา project และแนวทางการทำงานร่วมกับ AI โดยใช้ทักษะการคิด และการวิเคราะห์ 
+เว็บสำหรับบันทึกการเรียนรู้และพัฒนาซอฟแวร์เพื่อใช้งานจริง การพัฒนา project และแนวทางการทำงานร่วมกับ AI โดยใช้ทักษะการคิด และการวิเคราะห์
 
 #links
-  :::u-button
-  ---
-  color: neutral
-  size: xl
-  to: /project-internship/internship
-  ---
-  ![KEEHIN](/images/khlogo-xs.png){class='w-auto h-auto'}
-
+  :::u-button{color="neutral" size="xl" to="/project-internship/internship"}
+  ![KEEHIN](/images/khlogo-xs.png){.w-auto.h-auto}
   :::
 
   :::u-button
@@ -31,9 +26,7 @@ seo:
   ---
   Docus.dev
   :::
-
 ::
-
 
 ::u-page-section
 #title
@@ -44,10 +37,10 @@ seo:
   ---
   icon: i-simple-icons-nuxt
   target: _blank
-  to: https://nuxt.com
+  to: /project-internship/internship
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
+  [ข้อมูลฝึกงาน]{.text-primary}
 
   #description
   Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
@@ -57,10 +50,10 @@ seo:
   ---
   icon: i-simple-icons-nuxt
   target: _blank
-  to: https://ui.nuxt.com/
+  to: /proeject-internship/workflow
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
+  [ขั้นตอนการทำงาน]{.text-primary}
 
   #description
   Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
@@ -70,10 +63,10 @@ seo:
   ---
   icon: i-simple-icons-nuxt
   target: _blank
-  to: https://content.nuxt.com
+  to: /project-internship/folder-structure
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
+  [folder structure]{.text-primary}
 
   #description
   The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
@@ -83,10 +76,10 @@ seo:
   ---
   icon: i-simple-icons-nuxt
   target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
+  to: /project-internship/installation
   ---
   #title
-  Customize with [Nuxt App Config]{.text-primary}
+  [การติดตั้งโปรแกรม]{.text-primary}
 
   #description
   Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
@@ -96,10 +89,10 @@ seo:
   ---
   icon: i-simple-icons-nuxt
   target: _blank
-  to: https://content.nuxt.com/studio
+  to: /about/glossary
   ---
   #title
-  Edit in production with [Nuxt Studio]{.text-primary}
+  [คำศัพท์]{.text-primary}
 
   #description
   Edit your content in production with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
@@ -109,10 +102,10 @@ seo:
   ---
   icon: i-simple-icons-nuxt
   target: _blank
-  to: https://ui.nuxt.com/components/content-search
+  to: /about/about
   ---
   #title
-  Built-in navigation and [full-text search]{.text-primary}
+  [ข้อมูลส่วนตัว]{.text-primary}
 
   #description
   Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
