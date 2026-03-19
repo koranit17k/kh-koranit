@@ -1,7 +1,7 @@
 ---
 seo:
   title: KEEHIN
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box. Docus brings together the best of the Nuxt ecosystem. Powered by Nuxt UI.
+  description: เว็บสำหรับบันทึกการเรียนรู้ พัฒนาซอฟต์แวร์ และแนวจัดการโปรเจกต์โดยใช้ AI
 ---
 
 ::u-page-hero
@@ -43,7 +43,7 @@ seo:
   [ข้อมูลฝึกงาน]{.text-primary}
 
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  ข้อมูลสรุปเกี่ยวกับการฝึกงาน รายละเอียดโครงการ และประสบการณ์ที่ได้รับจากการทำงานจริง
   :::
 
   :::u-page-feature
@@ -56,7 +56,7 @@ seo:
   [ขั้นตอนการทำงาน]{.text-primary}
 
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  แนวทางและลำดับขั้นตอนการทำงาน (Workflow) ตั้งแต่เริ่มต้นจนจบโครงการอย่างเป็นระบบ
   :::
 
   :::u-page-feature
@@ -69,7 +69,7 @@ seo:
   [folder structure]{.text-primary}
 
   #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
+  อธิบายโครงสร้างไฟล์และโฟลเดอร์ต่างๆ ภายในโปรเจกต์ เพื่อความเข้าใจในการพัฒนาและดูแลรักษา
   :::
 
   :::u-page-feature
@@ -82,7 +82,7 @@ seo:
   [การติดตั้งโปรแกรม]{.text-primary}
 
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
+  คู่มือการติดตั้งโปรแกรม สภาพแวดล้อม และเครื่องมือต่างๆ ที่จำเป็นสำหรับการเริ่มต้นพัฒนาซอฟต์แวร์
   :::
 
   :::u-page-feature
@@ -95,7 +95,7 @@ seo:
   [คำศัพท์]{.text-primary}
 
   #description
-  Edit your content in production with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
+  รวบรวมคำศัพท์เฉพาะทาง คำนิยาม และความหมายต่างๆ ที่ใช้ในการสื่อสารภายในโปรเจกต์
   :::
 
   :::u-page-feature
@@ -108,7 +108,7 @@ seo:
   [ข้อมูลส่วนตัว]{.text-primary}
 
   #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  ข้อมูลประวัติส่วนตัว ทักษะความสามารถ และช่องทางการติดต่อสื่อสาร
   :::
 ::
 
