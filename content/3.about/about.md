@@ -7,45 +7,47 @@ seo:
   title: about
   description: Discover how to create, manage, and publish documentation effortlessly with Docus.
 ---
-
-## 👤 **Personal Information**
-
-- **Name:** Koranit Keawmanee
-- **Nickname:** Guy
-- **Age:** 21
-- **Gender:** Male
-- **Height:** 175 cm
-- **Weight:** 57 kg
-- **Hometown:** Phuket, Thailand
-- **Interests:** Web Dev, Backend, Data, Data Engineering, Data Analysis
-- **Personality:** Introvert, Friendly, Curious, Always Learning
-- **Hobbies:** :br
-  - Playing Video Games look like FPS (Valorant,CS2,Apex Legends) Because i will more focused,Make Quicker Decision and predict Enemy Move and Turn based (7 Knight Rebirth) becasue i like to play with strategy and Management Resources For Maximum Benefit :br
-  - I enjoy watching action, horror, and drama movies and TV series to relieve stress and have fun.
-
----
-
-## 🎓 **Education**
-
-#### **Bachelor Degree**
-
-- **Degree:** Bachelor of Science (Digital Business)
-- **Major:** B.Sc. (Digital Business)
-- **Institute:** Prince of Songkla University Phuket Campus
-- **Graduation Year:** 2026
-- **GPA:** 3.66
-
-#### Senior High School
-
-- **Program:** Arts–Mathematics Program
-- **Institute:** Phuketwittayalai School
-- **Graduation Year:** 2022
+![koranit](/images/koranit.jpeg){.w-47 .h-auto .block .mx-auto .my-4}
+## 👤 **ข้อมูลส่วนตัว**
+**ชื่อ:** นาย กรณิศ แก้วมณี  
+**ชื่อเล่น:** กาย  
+**อายุ:** 21 ปี  
+**เพศ:** ชาย  
+**ส่วนสูง:** 175 ซม.  
+**น้ำหนัก:** 57 กก.   
+**บ้านเกิด:** ภูเก็ต, ประเทศไทย   
+**ความสนใจ:** Web Dev, Backend, Data, Data Engineering, Data Analysis   
+**บุคลิกภาพ:** Introvert, เป็นมิตร, ชอบเรียนรู้อยู่เสมอ   
+**งานอดิเรก:**
+- เล่นวิดีโอเกม โดยเฉพาะแนว FPS เช่น Valorant, CS2, Apex Legends เพราะทำให้โฟกัสได้มากขึ้น ตัดสินใจได้ไวขึ้น และคาดเดาการได้ดีขึ้น
+- ชอบเล่นเกม Turn-based อย่าง 7 Knight Rebirth เพราะชอบการวางกลยุทธ์และการบริหารทรัพยากรให้เกิดประโยชน์สูงสุด
+- ชอบดูหนังและซีรีส์แนว Action, Horror Drama และซีรีย์จีน เพื่อผ่อนคลายความเครียดและความสนุก
 
 ---
 
-## 🛠 **Skills**
+## 🎓 **การศึกษา**
 
-::SkillGroup{title="General Skills"}
+#### **ปริญญาตรี**
+
+- **วุฒิการศึกษา:** วิทยาศาสตรบัณฑิต (ธุรกิจดิจิทัล)
+- **สาขา:** ธุรกิจดิจิทัล
+- **คณะ** วิทยาลัยการคอมพิวเตอร์
+- **สถาบัน:** มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต
+- **ปีที่จบ:** 2026
+- **เกรดเฉลี่ยสะสม:** 3.66
+
+#### **มัธยมปลาย**
+
+- **แผนการเรียน:** ศิลป์–คำนวณ
+- **สถาบัน:** โรงเรียนภูเก็ตวิทยาลัย
+- **ปีที่จบ:** 2022
+
+
+---
+
+## 🛠 **ทักษะ**
+
+::SkillGroup{title="ทักษะทั่วไป"}
 ::SkillCard{title="Problem Solving" description="🔥 Never give up, think smart"}
 ::
 ::SkillCard{title="Learning" description="📚 Always curious & improving"}
@@ -64,7 +66,7 @@ seo:
 
 ---
 
-## 💻 **Dev Skills**
+## 💻 **ทักษะ Dev**
 
 ::SkillGroup{title="Programming Languages"}
 ::SkillCard{title="SQL" percentage="50"}
@@ -82,7 +84,7 @@ seo:
 
 ## **Program**
 
-::SkillGroup{title="Program"}
+::SkillGroup{title="Program/Extension"}
 ::SkillCard{title="PowerBI" percentage="80"}
 ::
 ::SkillCard{title="Antigravity" percentage="80"}
@@ -91,11 +93,11 @@ seo:
 ::
 ::SkillCard{title="GitHub" percentage="60"}
 ::
+::SkillCard{title="Jasper Report" percentage="60"}
+::
 ::SkillCard{title="Vitest" percentage="50"}
 ::
 ::SkillCard{title="nginx" percentage="50"}
-::
-::SkillCard{title="Jasper Report" percentage="60"}
 ::
 ::
 
@@ -114,7 +116,7 @@ seo:
 
 ---
 
-## **Training Experience**
+## **ประสบการณ์**
 
 <div style="display: flex; justify-content: space-between;">
   <strong>สหกิจศึกษา ตำแหน่ง Data Analyst</strong>
@@ -139,7 +141,7 @@ seo:
 
 ---
 
-## 📬 **Contact Information**
+## 📬 **ข้อมูลติดต่อ**
 
 ```json
 {
@@ -150,11 +152,5 @@ seo:
   "phone": "+66 93-674-9281"
 }
 ```
-
----
-
-# 🎯 **Mission**
-
-To build scalable, clean, and efficient systems while continuously learning and improving—creating solutions that are useful, maintainable, and impactful.
 
 ---

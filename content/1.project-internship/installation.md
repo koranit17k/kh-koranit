@@ -54,30 +54,9 @@ seo:
   #ติดตั้งโปรแกรมที่ปรับปรุง
   sudo apt upgrade -y
 ```
-
 ---
 
-## 2. Node.js
-
-> JavaScript Runtime Environment,
-> Node24 [https://nodejs.org/en/download]
-
-```bash
-  # ดาวน์โหลด Node Install Script
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-  # ติดตั้ง nvm
-  \. "$HOME/.nvm/nvm.sh"
-  # ติดตั้ง Node.js 24
-  nvm install 24
-  # ติดตั้ง pnpm
-  corepack enable pnpm
-  # รัน Local Server
-  pnpm run dev
-```
-
----
-
-## 3. Google Antigravity
+## 2. Google Antigravity
 
 > (VSCode, VSCodium) + AI + Google API [Antigravity Download](https://antigravity.google/download/linux)
 
@@ -98,6 +77,26 @@ seo:
 <div class="flex justify-center">
   <img src="/images/screen-001.png" style="width:auto; height:auto;" alt="Antigravity" />
 </div>
+
+---
+
+## 3. Node.js
+
+> JavaScript Runtime Environment,
+> Node24 [https://nodejs.org/en/download]
+
+```bash
+  # ดาวน์โหลด Node Install Script
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+  # ติดตั้ง nvm
+  \. "$HOME/.nvm/nvm.sh"
+  # ติดตั้ง Node.js 24
+  nvm install 24
+  # ติดตั้ง pnpm
+  corepack enable pnpm
+  # รัน Local Server
+  pnpm run dev
+```
 
 ---
 
@@ -189,7 +188,32 @@ sudo mysql payroll < payroll.sql
   curl -f https://zed.dev/install.sh | sh
 ```
 
-## 8. nginx
+---
+
+## 8. jasperreport
+
+> เพื่อใช้ออกแบบรายงาน
+
+```bash
+  # ติดตั้ง jasperreport
+  sudo apt install jasperreport
+```
+
+---
+
+
+## 9.vitest
+
+> Vitest คือเฟรมเวิร์กสำหรับการทดสอบหน่วยรุ่นใหม่ สร้างขึ้นบนพื้นฐานของ Vite และช่วยให้ทดสอบ calculate code ผ่าน test case screnatrios ได้อย่างรวดเร็วและง่ายดาย
+
+```bash
+  # ติดตั้ง vitest
+  pnpm install -D vitest
+```
+
+---
+
+## 10. nginx
 
 > เป็นตัวกลางในการรัน local
 > ใช้ config ในการแก้ไขด้วย
@@ -200,3 +224,5 @@ sudo mysql payroll < payroll.sql
 ```bash
 npx serve dist -l 3000
 ```
+
+---
