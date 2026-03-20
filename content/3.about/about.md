@@ -7,21 +7,54 @@ seo:
   title: about
   description: Discover how to create, manage, and publish documentation effortlessly with Docus.
 ---
-![koranit](/images/koranit.jpeg){.w-47 .h-auto .block .mx-auto .my-4}
-## 👤 **ข้อมูลส่วนตัว**
-**ชื่อ:** นาย กรณิศ แก้วมณี  
-**ชื่อเล่น:** กาย  
-**อายุ:** 21 ปี  
-**เพศ:** ชาย  
-**ส่วนสูง:** 175 ซม.  
-**น้ำหนัก:** 57 กก.   
-**บ้านเกิด:** ภูเก็ต, ประเทศไทย   
-**ความสนใจ:** Web Dev, Backend, Data, Data Engineering, Data Analysis   
-**บุคลิกภาพ:** Introvert, เป็นมิตร, ชอบเรียนรู้อยู่เสมอ   
-**งานอดิเรก:**
-- เล่นวิดีโอเกม โดยเฉพาะแนว FPS เช่น Valorant, CS2, Apex Legends เพราะทำให้โฟกัสได้มากขึ้น ตัดสินใจได้ไวขึ้น และคาดเดาการได้ดีขึ้น
-- ชอบเล่นเกม Turn-based อย่าง 7 Knight Rebirth เพราะชอบการวางกลยุทธ์และการบริหารทรัพยากรให้เกิดประโยชน์สูงสุด
-- ชอบดูหนังและซีรีส์แนว Action, Horror Drama และซีรีย์จีน เพื่อผ่อนคลายความเครียดและความสนุก
+
+::u-page
+  :::u-page-grid
+    :::u-page-feature
+    ---
+    ---
+    #description
+    <img src="/images/koranit.jpeg" alt="koranit" width="180" style="border-radius:16px; margin-bottom:12px;" />
+    :::
+
+    :::u-page-feature
+    ---
+    icon: i-heroicons-map-pin
+    ---
+    #title
+    [ข้อมูลพื้นฐาน]{.text-primary}
+
+    #description
+    **ชื่อ:** นาย กรณิศ แก้วมณี  
+    **ชื่อเล่น:** กาย  
+    **อายุ:** 21 ปี  
+    **เพศ:** ชาย
+    **ส่วนสูง:** 175 ซม.  
+    **น้ำหนัก:** 57 กก.  
+    **บ้านเกิด:** ภูเก็ต, ประเทศไทย  
+    **บุคลิกภาพ:** Introvert, เป็นมิตร, ชอบเรียนรู้อยู่เสมอ
+    :::
+
+    :::u-page-feature
+    ---
+    icon: i-heroicons-heart
+    ---
+    #title
+    [งานอดิเรก]{.text-primary}
+
+    #description
+    เล่นวิดีโอเกมแนว FPS เช่น Valorant, CS2, Apex Legends เพราะช่วยฝึกการโฟกัส การตัดสินใจ และการคาดเดาสถานการณ์  
+    ชอบเกม Turn-based อย่าง 7 Knight Rebirth เพราะได้ฝึกการวางกลยุทธ์และบริหารทรัพยากร  
+    ชอบดูหนังและซีรีส์แนว Action, Horror, Drama และซีรีส์จีน เพื่อผ่อนคลายและความบันเทิง
+    :::
+  :::
+::
+
+---
+
+### สายอาชีพที่สนใจ
+Web Dev, Backend, Tester, Data Engineering และ Data Analysis
+
 
 ---
 
@@ -36,7 +69,7 @@ seo:
 - **จบการศึกษาปี:** 2026
 - **เกรดเฉลี่ยสะสม:** 3.66
 
-#### **มัธยมปลาย**
+#### **มัธยมศึกษา**
 
 - **แผนการเรียน:** ศิลป์–คำนวณ
 - **สถาบัน:** โรงเรียนภูเก็ตวิทยาลัย
