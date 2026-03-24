@@ -1,6 +1,6 @@
 export default defineAppConfig({
   header: {
-    title: "kh-internsd",
+    title: "kh-intern",
     logo: {
       dark: "/images/khlogo-xs.png",
     },
