@@ -1,77 +1,138 @@
 ---
-navigation:
-  label: "Index"
-  to: "/"
-  title: "คู่มือการฝึกงาน"
+seo:
+  title: KEEHIN
+  description: เว็บสำหรับบันทึกการเรียนรู้ พัฒนาซอฟต์แวร์ และแนวจัดการโปรเจกต์โดยใช้ AI
 ---
 
-| [**รับนักศึกษาฝึกงาน**](recruitment) | [**การติดตั้งซอฟแวร์**](installation) | [**โครงการคู่มือฝึกงาน**](kh-intern) | [**อภิธานศัพท์**](glossary) | [**เกี่ยวกับผู้จัดทำ**](about) |
-| :----------------------------------- | :------------------------------------ | :----------------------------------- | :-------------------------- | :----------------------------- |
+::u-page-hero
+#title
+นาย กรณิศ แก้วมณี
 
-# คู่มือการฝึกงาน (Internship Handbook)
+#description
+เว็บสำหรับบันทึกการเรียนรู้และพัฒนาซอฟแวร์เพื่อใช้งานจริง การพัฒนา project และแนวทางการทำงานร่วมกับ AI โดยใช้ทักษะการคิด และการวิเคราะห์
 
-เอกสารนี้รวบรวมข้อตกลง รายละเอียดโครงการ และหน้าที่ความรับผิดชอบสำหรับการฝึกงาน
+#links
+  :::u-button{color="neutral" size="xl" to="/project-internship/internship"}
+  ![KEEHIN](/images/khlogo-xs.png){.w-auto.h-auto}
+  :::
 
-## 🧑‍💻 ข้อมูลผู้ฝึกงาน
+  :::u-button
+  ---
+  color: secondary
+  icon: simple-icons-nuxt
+  size: xl
+  to: https://docus.dev/en
+  variant: outline
+  ---
+  Docus.dev
+  :::
+::
 
+<<<<<<< HEAD
 - **ชื่อ-นามสกุล:** นาย กรณิศ แก้วมณี
 - **ชื่อเล่น:** กาย
 - **ตำแหน่ง:** นักศึกษาฝึกงาน (Intern Developer)
+=======
+::u-page-section
+#title
+เทคโนโลยีต่างๆ ที่ใช้ในการพัฒนาซอฟแวร์
+>>>>>>> fbd74290515ce8e3b394ed8b5ac24b7f148e60dc
 
-## 🏫 ข้อมูลการศึกษา
+#features
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: /project-internship/internship
+  ---
+  #title
+  [ข้อมูลฝึกงาน]{.text-primary}
 
+<<<<<<< HEAD
 - **สถาบัน:** มหาวิทยาลัยสงขลานครินทร์ วิทยาเขตภูเก็ต
 - **คณะ/สาขาวิชา:** วิทยาลัยการคอมพิวเตอร์ สาขาธุรกิจดิจิทัล 
 - **ระดับชั้น:** ปริญญาตรี ปีที่ 4
 - **อาจารย์ที่ปรึกษา:** ดร.จามิกร หิรัญรัตน์
+=======
+  #description
+  ข้อมูลสรุปเกี่ยวกับการฝึกงาน รายละเอียดโครงการ และประสบการณ์ที่ได้รับจากการทำงานจริง
+  :::
+>>>>>>> fbd74290515ce8e3b394ed8b5ac24b7f148e60dc
 
-## 📅 ระยะเวลาและเวลาทำการ
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: /proeject-internship/workflow
+  ---
+  #title
+  [ขั้นตอนการทำงาน]{.text-primary}
 
-- **ระยะเวลา:** 1 มกราคม 2569 - 31 ธันวาคม 2569
-- **วันเวลาทำงาน:** จันทร์ - ศุกร์ | 08:30 - 16:30 น.
-- **สถานที่:** บริษัท กี่หิ้นการไฟฟ้า จำกัด (สำนักงานใหญ่)
+  #description
+  แนวทางและลำดับขั้นตอนการทำงาน (Workflow) ตั้งแต่เริ่มต้นจนจบโครงการอย่างเป็นระบบ
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: /project-internship/folder-structure
+  ---
+  #title
+  [folder structure]{.text-primary}
+
+  #description
+  อธิบายโครงสร้างไฟล์และโฟลเดอร์ต่างๆ ภายในโปรเจกต์ เพื่อความเข้าใจในการพัฒนาและดูแลรักษา
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: /project-internship/installation
+  ---
+  #title
+  [การติดตั้งโปรแกรม]{.text-primary}
+
+  #description
+  คู่มือการติดตั้งโปรแกรม สภาพแวดล้อม และเครื่องมือต่างๆ ที่จำเป็นสำหรับการเริ่มต้นพัฒนาซอฟต์แวร์
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: /about/glossary
+  ---
+  #title
+  [คำศัพท์]{.text-primary}
+
+  #description
+  รวบรวมคำศัพท์เฉพาะทาง คำนิยาม และความหมายต่างๆ ที่ใช้ในการสื่อสารภายในโปรเจกต์
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-simple-icons-nuxt
+  target: _blank
+  to: /about/about
+  ---
+  #title
+  [ข้อมูลส่วนตัว]{.text-primary}
+
+  #description
+  ข้อมูลประวัติส่วนตัว ทักษะความสามารถ และช่องทางการติดต่อสื่อสาร
+  :::
+::
 
 ---
 
-## 📋 หน้าที่และภาระงาน (Duties & Responsibilities)
-
-1. **Frontend Development**: รับผิดชอบงานพัฒนา Web Application ด้วย Nuxt 4, Vue 3 และ Tailwind CSS
-2. **System Documentation**: จัดทำคู่มือการพัฒนาระบบงานและเอกสารทางเทคนิค
-3. **Database Design**: ออกแบบโครงสร้างฐานข้อมูล MySQL/MariaDB สำหรับระบบทดสอบ
-4. **HW & SW Maintenance**: ดูแลและบำรุงรักษาฮาร์ดแวร์และซอฟแวร์ที่ใช้ในระบบ
-
-## 🚀 รายละเอียดโครงการ (Projects)
-
-| โครงการ                    | รายละเอียด                        |
-| :------------------------- | :-------------------------------- |
-| **1. Internship Handbook** | ระบบคู่มือฝึกงานออนไลน์ (เว็บนี้) |
-| **2. Time Attendance**     | ระบบบันทึกเวลาเข้า-ออกงาน         |
-
----
-
-## 🎯 เป้าหมายการเรียนรู้ (Learning Objectives)
-
-- เรียนรู้การทำงานแบบมืออาชีพ (Professional workflow)
-- เสริมสร้างทักษะ Nuxt 4 และ Tailwind CSS v4
-- การใช้งาน Git และ CI/CD Pipeline เบื้องต้น
-
-## 👥 ผู้ดูแลการฝึกงาน (Supervisors)
-
-- **หัวหน้างาน:** นายวศิน เสงี่ยมกุล
-
----
-
-::alert{color="lime"}
-
+::alert{color="red"}
 - จอมยุทธยอดฝีมือ สำนึกแห่งกระบี่อยู่ที่ใจ เพียงกิ่งไม้ก็ใช้ได้ต่างกระบี่
   > กระบี่เย้ยยุทธจักร, กิมย้ง น.นพรัตน์
 - โปรแกรมเมอร์ที่แท้จริง เพียงกระดาษกับดินสอ ก็เขียนโค้ดได้
 - เมื่อบรรลุมรรคาแห่งโปรแกรม ในมือไม่มีโค้ด ในใจก็ไม่มีโค้ด โค้ดอยู่ที่ AI
   > Tom 'N Jerry 2025-12-10
-
 ::
 
----
-
-::counter
-::
+:counter

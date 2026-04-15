@@ -1,8 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  ssr: false,
-  modules: ["@nuxt/content", "@nuxt/ui"],
-  css: ["@/assets/main.css"],
+  ssr: true,
+  extends : "docus",
   devtools: { enabled: false },
   compatibilityDate: "2024-04-03",
   nitro: {
@@ -12,5 +11,5 @@ export default defineNuxtConfig({
     optimizeDeps: {
       exclude: ["@nuxtjs/mdc"],
     },
-  },
+  }
 });

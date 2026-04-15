@@ -1,12 +1,12 @@
 ---
+title: recruitment
+description: Welcome to Docus theme documentation.
 navigation:
-  label: "รับสมัครนักศึกษาฝึกงาน"
-  to: "recruitment"
+  icon: i-lucide-user-plus
+seo:
+  title: recruitment
+  description: Discover how to create, manage, and publish documentation effortlessly with Docus.
 ---
-
-# 📢 รับสมัครนักศึกษาฝึกงาน
-
-<img src="/images/khlogo-xs.png" style="width:auto; height:auto;" alt="KEEHIN" />
 
 ## KEEHIN Software Development
 
@@ -50,7 +50,7 @@ navigation:
 - มัธยมปลาย / ปวส. / ป.ตรี สาขาคอมพิวเตอร์ หรือที่เกี่ยวข้อง
 - มีพื้นฐานการเขียนโปรแกรม ไล่ลำดับการทำงาน แก้ไขจุดผิดพลาดได้
 - รับผิดชอบหน้าที่ และชอบแก้ไขปัญหา
-- ผ่านแบบทดสอบ ความเข้าใจ [ตัวอย่างโปรแกรม example.html](code/example.html)
+- ผ่านแบบทดสอบ ความเข้าใจ [ตัวอย่างโปรแกรม example.html](/code/example.html){target="_blank"}
 
 ## 🕒 เวลาทำงาน
 

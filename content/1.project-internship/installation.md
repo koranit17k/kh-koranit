@@ -1,7 +1,11 @@
 ---
+title: installation
+description: Software & Installation Guide
 navigation:
-  label: "Installation"
-  to: "installation"
+  icon: i-lucide-download
+seo:
+  title: installation
+  description: Software & Installation Guide
 ---
 
 # Software & Installation Guide
@@ -17,20 +21,21 @@ navigation:
 
 ## 1. Linux OS
 
-### Debian 13
+### Elementary OS 8
 
 > สามารถติดตั้งแค่ระบบ OS พื้นฐาน สำหรับใช้เป็นเซิร์ฟเวอร์,
 > การอัพเดทซอฟแวร์ผ่าน apt ที่ไว้ใจได้ ปลอดภัย,
-> เป็นระบบ OS ที่โอเพนซอร์ส 100% Free ครบเครื่องและนิยมใช้สูง,
-> ถ้าต้องการ GUI เลือก XFCE (customizable and light weight)
+> เป็นระบบ OS ที่โอเพนซอร์ส 100% Free ครบเครื่องและนิยมใช้สูง
 
-- [download Debian 13.2.0 iso file](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.2.0-amd64-netinst.iso)
-- มีชื่อผู้ใช้ root เป็นแอดมินหลัก แต่ไม่ใช้งานโดยตรง ให้สร้างผู้ใช้ทั่วไป แล้วควบคุมผ่าน sudo
-- ติดตั้ง bluetooth (blueman) หรือไดรเวอร์อื่นๆ ได้
+- [Download Elementary OS 8 ](https://elementary.io/)
+- ติดตั้งโดยใช้ Flash Drive
+- ใช้คำสั่ง sudo เพื่อใช้สิทธิ์ Administration ในการใช้คำสั่งใน Terminal Consoles
 - สำหรับเครื่องผู้ใช้งานทั่วไป เลือกใช้
   - Mint (Windows like)
   - Elementary OS (MacOS like)
   - Ubuntu (Android like)
+- สำหรับใช้พัฒนาโปรแกรม แนะนำ
+  - MX-Linux 25 Fluxbox Edition (Minimal Config)
 
 ```bash
   # ติดตั้ง xfonts-thai รองรับรูปแบบอักษรไทยบนอินเตอร์เน็ต
@@ -49,28 +54,9 @@ navigation:
   #ติดตั้งโปรแกรมที่ปรับปรุง
   sudo apt upgrade -y
 ```
-
 ---
 
-## 2. Node.js
-
-> JavaScript Runtime Environment,
-> Node24 [https://nodejs.org/en/download]
-
-```bash
-  # ดาวน์โหลด Node Install Script
-  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
-  # ติดตั้ง nvm
-  \. "$HOME/.nvm/nvm.sh"
-  # ติดตั้ง Node.js 24
-  nvm install 24
-  # ติดตั้ง pnpm
-  corepack enable pnpm
-```
-
----
-
-## 3. Google Antigravity
+## 2. Google Antigravity
 
 > (VSCode, VSCodium) + AI + Google API [Antigravity Download](https://antigravity.google/download/linux)
 
@@ -94,6 +80,26 @@ navigation:
 
 ---
 
+## 3. Node.js
+
+> JavaScript Runtime Environment,
+> Node24 [https://nodejs.org/en/download]
+
+```bash
+  # ดาวน์โหลด Node Install Script
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+  # ติดตั้ง nvm
+  \. "$HOME/.nvm/nvm.sh"
+  # ติดตั้ง Node.js 24
+  nvm install 24
+  # ติดตั้ง pnpm
+  corepack enable pnpm
+  # รัน Local Server
+  pnpm run dev
+```
+
+---
+
 ## 4. Git Configuration
 
 > ก่อนเริ่มใช้งาน ตั้งค่า Git ให้จดจำรหัสผ่าน (Personal Access Token) เพื่อไม่ต้องกรอกทุกครั้ง
@@ -114,6 +120,8 @@ navigation:
 1. **Username**: ใส่ชื่อ GitHub Username ของคุณ
 2. **Password**: ใส่รหัสผ่านสำหรับโปรเจ็คส่วนตัว หรือใช้ **Personal Access Token (PAT)** (เช่น `ghp_...`)
 
+---
+
 ## 5. MariaDB-Server
 
 > ระบบจัดการฐานข้อมูล MariaDB เป็นโอเพนซอร์ส 100% Free และใช้งานได้เสมือนกับ MySQL
@@ -130,6 +138,7 @@ navigation:
 ```bash
   # เริ่มเข้าใช้งาน MariaDB ผ่าน terminal
   sudo mysql
+  # สร้าง User และฐานข้อมูล และให้สิทธิ์การใช้งาน ของ user นี้
   ...
   CREATE USER 'username'@'%' IDENTIFIED BY 'password';
   CREATE DATABASE database_name;
@@ -147,8 +156,81 @@ navigation:
   ...
 ```
 
+- การแบ็คอัพฐานข้อมูล mysqldump
+
+```
+sudo mysqldump --routines payroll payroll > payroll.sql
+zip payroll payroll.sql
+```
+
+- การ import ข้อมูล \*.sql
+
+```
+unzip payroll.zip
+sudo mysql payroll < payroll.sql
+```
+---
+
 ## 6. DBeaver
 
 > โปรแกรมเข้าใช้งานดูแลระบบฐานข้อมูล ที่รองรับหลากหลายระบบ และมีเครื่องมือที่ใช้งานครบถ้วน
 
 - [DBeaver Download](https://dbeaver.io/files/dbeaver-ce_latest_amd64.deb)
+
+---
+
+## 7. Zed editor
+
+> โปรแกรมแก้ไขโค้ดที่ทำงานบนระบบปฏิบัติการ Linux, macOS และ Windows
+> เหมาะสำหรับนักพัฒนาโปรแกรม ที่ต้องการใช้ทรัพยากรน้อย และมีความเร็วสูง Interface ดูเรียบง่าย
+
+```bash
+  curl -f https://zed.dev/install.sh | sh
+```
+
+---
+
+## 8. jasperreport
+
+> เพื่อใช้ออกแบบรายงาน
+
+```bash
+  # ติดตั้ง jasperreport
+  sudo apt install jasperreport
+```
+
+---
+
+
+## 9.vitest
+
+> Vitest คือเฟรมเวิร์กสำหรับการทดสอบหน่วยรุ่นใหม่ สร้างขึ้นบนพื้นฐานของ Vite และช่วยให้ทดสอบ calculate code ผ่าน test case screnatrios ได้อย่างรวดเร็วและง่ายดาย
+
+```bash
+  # ติดตั้ง vitest
+  pnpm install -D vitest
+```
+
+---
+
+## 10. nginx
+
+> เป็นตัวกลางในการรัน local
+> ใช้ config ในการแก้ไขด้วย
+```bash
+  sudo apt install nginx
+```
+รันผ่าน
+```bash
+npx serve dist -l 3000
+```
+
+---
+
+## 11. Termius
+
+> โปรแกรมจัดการ SSH ที่ใช้งานง่ายและมีประสิทธิภาพ
+> เป็นเครือข่ายที่ใช้สำหรับเชื่อมต่อและจัดการคอมพิวเตอร์หรือเซิร์ฟเวอร์ระยะไกลอย่างปลอดภัย
+
+- [Termius Download](https://termius.com/download)
+
